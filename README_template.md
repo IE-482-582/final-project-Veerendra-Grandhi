@@ -91,7 +91,7 @@ List of Prerequisite Software:
 
 ## What did you learn from this project?
 
-*For example, what concepts from class do you now have a solid understanding of?  What new techniques did you learn?**
+*For example, what concepts from class do you now have a solid understanding of?  What new techniques did you learn?*
 
 *Also, what challenges did you face, and how did you overcome these?  Be specific.*
 

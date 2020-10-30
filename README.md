@@ -1,16 +1,17 @@
 # Final Project
 
 - This repo is where you will store **all** of your documents for the course project.
-- Please see [PROPOSAL.md](PROPOSAL.md) for a template for your **proposal** (Due Oct. 25).
+- Please see [PROPOSAL.md](PROPOSAL.md) for a template for your **proposal** (Due Nov. 2).
 
 --- 
 
 ## IMPORTANT DATES:
-- **Friday, Oct. 25, 10:00am** -- Be sure your repo has your final [PROPOSAL.md](PROPOSAL.md).  You will give your 5-minute proposal pitch in class that day, using the [PROPOSAL.md](PROPOSAL.md) file.
-- **Monday, Nov. 25** -- Progress Report.  Each team will present the status of their project in class that day.
-- **Friday, Dec. 6** -- Your **almost** final documentation, code, and presentation materials are due.  You'll be asked to give a brief presentation in class.  I'll give you feedback.
+- **Friday, Oct. 30, 11:30am** -- Proposal presentations in class.
+- **Monday, Nov. 2, 5:00pm** -- Be sure your repo has your final [PROPOSAL.md](PROPOSAL.md) uploaded.  This will be modified according to the feedback you received on Oct. 30 in class.
+- **Friday, Nov. 20** -- Progress Report.  Each team will present the status of their project in class that day.
+- **Friday, Dec. 4** -- Your **almost** final documentation, code, and presentation materials are due.  You'll be asked to give a brief presentation in class.  I'll give you feedback.
 - **Exact Date to-be-determined** -- **Final** project presentations.  We'll either do these in class, or you'll produce a YouTube video.  We'll discuss in early December.
-- **Friday, Dec. 13, Noon** -- Your complete project materials are due.
+- **Monday, Dec. 14, Noon** -- Your complete project materials are due.
 
 
 ---
@@ -43,9 +44,15 @@ code/projectname/
 
 Grades for the final project will be based on the following percentages and content:
 
-- Proposal (10%)
+- Proposal (15%)
 - Progress Report (10%)
-- Presentation (30%)
+- Final Documentation and Code (50%)
+	- Did you address issues from the presentation feedback?
+	- How did you do on the "measures of success"?
+	- Can the instructor successfully install the prereqs?
+	- Can the instructor successfully run the code?  (I highly recommend that you find someone to test this for you)
+	- Does the code do what it's supposed to?
+- Project Demonstration (25%)
 	- Did you prepare/rehearse for this presentation?
 	- Is the README neatly formatted?
 	- Is the README (nearly) complete?
@@ -54,11 +61,3 @@ Grades for the final project will be based on the following percentages and cont
 	- Are the instructions for running the code complete?
 	- Were you able to answer technical questions about your project?
 	- How well were you able to demonstrate the actual implementation?  Note: You have until Friday, Dec. 13 to finalize the project.
-- Final Documentation and Code (30%)
-	- Did you address issues from the presentation feedback?
-	- How did you do on the "measures of success"?
-- Can the Instructor Run your Code? (20%)
-	- Can the instructor successfully install the prereqs?
-	- Can the instructor successfully run the code?  (I highly recommend that you find someone to test this for you)
-	- Does the code do what it's supposed to?
-				

@@ -1,6 +1,6 @@
 *NOTE TO STUDENTS:  This is a template for your **proposal**.  Items wrapped inside `{}` should be replaced accordingly.*
 
-*You will have 5 minutes to present your proposal document on Friday, Oct. 25.*
+*Your updated proposal document (this file) is due on Monday, November 2, at 5:00pm.*
 
 **Please delete this line, and the comments above.**
 
@@ -28,13 +28,13 @@ Team Members:
 
 ## Milestones/Schedule Checklist
 {What are the tasks that you need to complete?  Who is going to do them?  When will they be completed?}
-- [x] Complete this proposal document.  *Due Oct. 25*
+- [x] Complete this proposal document.  *Due Nov. 2*
 - [ ] {add tasks here}
-- [ ] Create progress report.  *Due Nov. 25*
+- [ ] Create progress report.  *Due Nov. 20*
 - [ ] {add more tasks here}
-- [ ] Create final presentation.  *Due Dec. 6*
+- [ ] Create final presentation.  *Due Dec. 4*
 - [ ] {you might have some more tasks here}
-- [ ] Provide system documentation (README.md).  *Due Dec. 13*
+- [ ] Provide system documentation (README.md).  *Due Dec. 14*
 
 
 ## Measures of Success
@@ -67,17 +67,17 @@ We will also consult the Duckiebot specs to determine the dimensions and weight 
 
 
 ## Milestones/Schedule Checklist
-- [x] Complete this proposal document.  *Due Oct. 25*
-- [ ] Capture the specs of the actual/physical robot.  *JS, Nov. 16*
-- [ ] Build a sample model using the textbook examples. *CM, Nov. 16*
-- [ ] Modify the sample model to match the specs of the Duckiebot.  *CM, Nov. 19*
-- [ ] Add a fisheye lens camera. *JS, Nov. 20*
-- [ ] Create progress report.  *Due Nov. 25*
+- [x] Complete this proposal document.  *Due Nov. 2*
+- [ ] Capture the specs of the actual/physical robot.  *JS, Nov. 13*
+- [ ] Build a sample model using the textbook examples. *CM, Nov. 13*
+- [ ] Modify the sample model to match the specs of the Duckiebot.  *CM, Nov. 17*
+- [ ] Add a fisheye lens camera. *JS, Nov. 18*
+- [ ] Create progress report.  *Due Nov. 20*
 - [ ] Create Gazebo .launch files to test the robot.  *CM, Dec. 1*
 - [ ] Create a simple controller to test the interaction with the robot. *JS, Dec. 3*
-- [ ] Create final presentation.  *Due Dec. 5*
+- [ ] Create final presentation.  *Due Dec. 4*
 - [ ] Update documentation based on presentation feedback. *CM, Dec. 7*
-- [ ] Provide system documentation (README.md).  *Due Dec. 13*
+- [ ] Provide system documentation (README.md).  *Due Dec. 14*
 
 
 ## Measures of Success

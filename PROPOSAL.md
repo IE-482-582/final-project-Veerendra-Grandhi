@@ -23,8 +23,8 @@ The textbook chapters 3, 4, 5 & 7 are applied in the project. The code related t
 ## Milestones/Schedule Checklist
 {What are the tasks that you need to complete?  Who is going to do them?  When will they be completed?}
 - [x] Complete this proposal document.  *Due Nov. 2*
-- [ ] Import multiple turtlebots into Gazebo and place them inside a rectangular boundary. *Due Nov. 8*
-- [ ] Create Gazebo .launch file to run the 15 puzzle. *Due Nov. 12*
+- [x] Import multiple turtlebots into Gazebo and place them inside a rectangular boundary. *Due Nov. 8*
+- [x] Create Gazebo .launch file to run the 15 puzzle. *Due Nov. 12*
 - [ ] Understand the 15 puzzle code & build the schematic for applying the code on turtlebots. *Due Nov. 18*
 - [ ] Create progress report.  *Due Nov. 20*
 - [ ] Apply the 15 puzzle logic to retrieve desired turtlebot from the rectangular boundary. *Due Nov. 26*

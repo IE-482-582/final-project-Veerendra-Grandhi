@@ -12,11 +12,13 @@ Team Members:
 
 ## Project Description
 
-*In this section, describe what your project does. This should be descriptive.  Someone from next year's class should be able to fully understand the aims and scope of your project. I highly recommend using pictures to help explain things.  Maybe even post a YouTube video showing your code in action.*
+We introduce and develop model for a physical goods storage system based on the 15‐puzzle, a classic children's game in which 15 numbered tiles slide within a 4 × 4 grid. The objective of the game is to arrange the tiles in numerical sequence, starting from a random arrangement. For our purposes, the tiles represent totes, pallets, or even containers that must be stored very densely, and the objective is to maneuver items to an input–output point for retrieval or processing. This project aims to reduce average time for fetching an item by choosing the most optimal way for retrieval of a shelf in a fulfillment center with AS/RS by using transporter robots. A set of 8 turtle bots are used in place of shelves within a 3 x 3 grid in the gazebo world. The figure "multi_robot_grid_view" in images folder depicts the gazebo world for the project.
 
-*NOTE:  This is not a proposal.  This is a final report describing your actual completed project.*
-
-
+### Building Gazebo World
+### Python Code
+#### Solve
+#### Move
+In this model, we subscribe to /odom topic (Odometry) and publish to /cmd_vel_mux/input/teleop topic (Twist) of each robot. Odometry topic initializes the start position of each robot at (0,0,0) as the origin. We 
 
 ### Contributions
 

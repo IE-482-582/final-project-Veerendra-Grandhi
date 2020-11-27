@@ -1,21 +1,12 @@
-This document (`README_template.md`) provides a template for your **final** documentation (**NOT YOUR PROPOSAL**).
-
-- Your final document should be named simply `README.md`.  
-- I've left several comments below.  These should obviously be removed from your document.
-- You may add additional sections as you see fit, but you should not **remove** any of the sections defined below.
-- Any supplementary images should go in a directory called `Images`.  See [README.md](README.md) for more information about the required directory structure.
-- Please keep in mind that the audience for this document should be students in the Fall 2019 section of this class.  (In other words, write this such that 3-month-younger you would've been able to utilize this document.)
 
 ---
 
-# [Provide a Brief Descriptive Project Title Here]
+# Optimal route for fetching shelves using robots in a warehouse
 
-Project Name: [provide catkin_ws name here].  
-*For example, `followbot`, `wanderbot`, and `redball` are project names we've used in class.  When I install your code, I want to know where I'll find it in `~/catkin_ws/src/`*
+Project Name: multi_robot  
 
 Team Members:
-- [Member 1, email]
-- [Member 2, email]
+- Naga Veerendra Grandhi, nagaveer@buffalo.edu
 
 ---
 

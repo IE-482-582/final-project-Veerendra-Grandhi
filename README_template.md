@@ -11,10 +11,10 @@ Team Members:
 ---
 
 ## Project Description
-
-We introduce and develop model for a physical goods storage system based on the 15‐puzzle, a classic children's game in which 15 numbered tiles slide within a 4 × 4 grid. The objective of the game is to arrange the tiles in numerical sequence, starting from a random arrangement. For our purposes, the tiles represent totes, pallets, or even containers that must be stored very densely, and the objective is to maneuver items to an input–output point for retrieval or processing. This project aims to reduce average time for fetching an item by choosing the most optimal way for retrieval of a shelf in a fulfillment center with AS/RS by using transporter robots. A set of 8 turtle bots are used in place of shelves within a 3 x 3 grid in the gazebo world. The figure "multi_robot_grid_view" in images folder depicts the gazebo world for the project.
+We introduce and develop model for a physical goods storage system based on the 15‐puzzle, a classic children's game in which 15 numbered tiles slide within a 4 × 4 grid. The objective of the game is to arrange the tiles in numerical sequence, starting from a random arrangement. For our purposes, the tiles represent totes, pallets, or even containers that must be stored very densely, and the objective is to maneuver items to an input–output point for retrieval or processing. This project aims to reduce average time for fetching an item by choosing the most optimal way for retrieval of a shelf in a fulfillment center with AS/RS by using transporter robots. A set of 8 turtle bots are used in place of shelves within a 3 x 3 grid in the gazebo world.
 
 ### Building Gazebo World
+A four wall boundary is created in gazebo empty world. Inside multi_robot package, launch folder is created which has 3 launch files. The first one is "one_robot.launch", it has the description of turtlebot model and all the sensor connected to it. This file determines the topics to which our turtlebot subscribe's and publish's. The second one is "robots.launch", it calls "one_robot.launch" to launch the turtle bot. It creates 8 namespaces through which we can launch 8 turltlebots and place them in 8 different locations in the gazebo world. The third file is "main.launch", it calls "robots.launch" onto the four wall boundary world that has been created. Thereby placing 8 turtlebots inside a 3 x 3 grid boundary. The figure "multi_robot_grid_view" in images folder depicts the gazebo world for the project.
 ### Python Code
 #### Solve
 #### Move

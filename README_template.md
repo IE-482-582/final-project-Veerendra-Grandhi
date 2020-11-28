@@ -88,7 +88,7 @@ We'll need two (2) terminal windows.
     roslaunch multi_robot main.launch
     ```
 
-2. Run the red light / green light script:
+2. Run the puzzle_solver script:
 
     ```
     cd ~/catkin_ws/src/multi_robot/scripts

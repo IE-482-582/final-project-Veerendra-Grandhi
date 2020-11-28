@@ -40,32 +40,22 @@ NOTE: These instructions are a little different from the textbook's.
     catkin_create_pkg multi_robot rospy gazebo_ros
     ```
     
-2. Let's go ahead and create our `scripts` directory:
+2. Let's go ahead and create our `scripts`,`launch`and`world` directories:
     ```
     cd ~/catkin_ws/src/multi_robot
     mkdir scripts
-    ```
-    	
-3. Let's go ahead and create our `launch` directory:
-    ```
-    cd ~/catkin_ws/src/multi_robot
     mkdir launch
-    ```
-    
-4. Let's go ahead and create our `world` directory:
-    ```
-    cd ~/catkin_ws/src/multi_robot
     mkdir world
     ```
-        
-5. Get the source code from the course github site:
+    	     
+3. Get the source code from the course github site:
     ```
     cd ~/Downloads
     rm -rf final-project-Veerendra-Grandhi
     git clone https://github.com/IE-482-582/final-project-Veerendra-Grandhi.git
     ```
         
-6. Copy the scripts, launch and world folders to our nulti_bot workspace
+4. Copy the scripts, launch and world folders to our multi_robot workspace
     ```
     cd final-project-Veerendra-Grandhi/code/multi_robot
     cp scripts/* ~/catkin_ws/src/multi_robot/scripts/
@@ -73,13 +63,13 @@ NOTE: These instructions are a little different from the textbook's.
     cp world/* ~/catkin_ws/src/multi_robot/world/
     ```
     
-7. Make our Python scripts executable
+5. Make our Python scripts executable
     ```
     cd ~/catkin_ws/src/multi_robot/scripts
     chmod +x *.py
     ```
     
-8. Compile/make our package
+6. Compile/make our package
 
     ```
     cd ~/catkin_ws

@@ -118,7 +118,7 @@ We'll need two (2) terminal windows.
 </TR>
 <TR>
 	<TD>Implement code on a model that can have variable number of turtlebots</TD>
-	<TD>100%</TD>
+	<TD>90% (by varying number of robots, we need to change launch file and also need to publish and subscribe to topics related to new turtlebots)</TD>
 </TR>
 <TR>
 	<TD>Have a classmate follow the steps in the README to successfully run the simulation without any help</TD>

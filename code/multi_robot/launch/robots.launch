@@ -1,0 +1,99 @@
+<launch>
+ 
+  <!-- BEGIN ROBOT 1-->
+  <group ns="robot1">
+    <param name="tf_prefix" value="robot1_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1 -y 0 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot1" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 2-->  
+  <group ns="robot2">
+    <param name="tf_prefix" value="robot2_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1 -y 0.5 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot2" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>  
+    </include>
+  </group> 
+  
+  <!-- BEGIN ROBOT 3-->  
+  <group ns="robot3">
+    <param name="tf_prefix" value="robot3_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1 -y 1 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot3" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>
+    </include>
+  </group> 
+  
+  <!-- BEGIN ROBOT 4-->  
+  <group ns="robot4">
+    <param name="tf_prefix" value="robot4_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1.5 -y 0 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot4" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>
+    </include>
+  </group> 
+
+  <!-- BEGIN ROBOT 5-->  
+  <group ns="robot5">
+    <param name="tf_prefix" value="robot5_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1.5 -y 0.5 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot5" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>
+    </include>
+  </group> 
+
+  <!-- BEGIN ROBOT 6-->  
+  <group ns="robot6">
+    <param name="tf_prefix" value="robot6_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1.5 -y 1 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot6" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>
+    </include>
+  </group> 
+
+  <!-- BEGIN ROBOT 7-->  
+  <group ns="robot7">
+    <param name="tf_prefix" value="robot7_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 2 -y 0 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot7" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>
+    </include>
+  </group> 
+
+  <!-- BEGIN ROBOT 8-->  
+  <group ns="robot8">
+    <param name="tf_prefix" value="robot8_tf" />
+    <include file="$(find multi_robot)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 2 -y 0.5 -z 0 -Y 1.57" />
+      <arg name="robot_name"  value="Robot8" />
+      <arg name="base" value="kobuki"/>
+      <arg name="stacks" value="hexagons"/>
+      <arg name="3d_sensor" value="kinect"/>
+    </include>
+  </group> 
+
+</launch>

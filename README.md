@@ -134,7 +134,7 @@ We'll need two (2) terminal windows.
 - Importing multiple robots into a custom created gazebo world.
 - Using Odometry and Twist topic to move the robot for fixed length or fixed angle.
 
-*What challenges did you face, and how did you overcome these?  Be specific.*
+*What challenges did you face, and how did you overcome these?*
 - The code is supposed to find empty space and move an "adjacent" turtlebot to make space for retrieving our target turtlebot. For this, we should publish to a robot by locating it in the co-ordinate frame. But publishing command is linked with a topic, ex: /robot5/cmd_vel_mux/teleop. We can't publish to any robot by just saying "Any robot at (x,y) to move".
 - So, I created a 2D matrix of 3 x 3 with numbers as that of robot indexes. While solving this matrix, all the moves that led to retrieval of target are recorded into a new matrix. This matrix is named command matrix, it is list of elements of form (robot index, direction of move). Ex: (4, left). The command matrix is "fed" to move method which implented all these steps on turtlebots.
 
@@ -150,9 +150,8 @@ We'll need two (2) terminal windows.
 
 ## References/Resources
 
-*What resources did you use to help finish this project?*
-- Include links to Websites.  Explain what this Website enabled you to accomplish.
-- Include references to particular chapters/pages from the ROS book.  Why was each chapter necessary/helpful?
-
-
-
+- https://www.theconstructsim.com/ros-qa-130-how-to-launch-multiple-robots-in-gazebo-simulator/: For launching multiple turtlebots.
+- https://github.com/optimatorlab/turtlebotrace: For having all the required topics on turtlebot launch file.
+- https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.20230: For solving the game of 15 puzzle.
+- https://answers.ros.org/questions/: For queries regarding Odometry and Twist.
+- https://stackoverflow.com/: For general python queries.

@@ -32,21 +32,46 @@ Odometry topic initializes the start position of each turtlebot at (0,0,0) as th
 
 ## Installation Instructions
 
-*In this section you should provide instructions for someone else to install all of the code necessary to execute your project.
-Your target audience should be a student from the Fall 2020 class.
-You may assume that the student has ROS Indigo installed on Ubuntu 14.04.*
+NOTE: These instructions are a little different from the textbook's.
 
-List of Prerequisite Software:
-- [software 1] 
-- [software 2]
-- [etc.]
-*This is just a list, not installation instructions.  The idea is to provide a summary of the additional software/packages that need to be installed.  Instructions go below.*
+1.  Create the Package:
+    ```
+    cd ~/catkin_ws/src
+    catkin_create_pkg wanderbot rospy geometry_msgs sensor_msgs
+    ```
+    *Note: We have added some dependency packages.  We'll take a look at `CMakeLists.txt` and `package.xml` shortly to see how that helped us.*
+    
+2. Let's go ahead and create our `scripts` directory:
+    ```
+    cd ~/catkin_ws/src/wanderbot
+    mkdir scripts
+    ```
+        
+3. Get the source code from the course github site:
+    ```
+    cd ~/Downloads
+    rm -rf fall2020
+    git clone https://github.com/IE-482-582/fall2020.git
+    ```
+        
+ 4. Copy the Python scripts to our wanderbot workspace
+    ```
+    cd fall2020/03_Wanderbot/code/wanderbot
+    cp scripts/* ~/catkin_ws/src/wanderbot/scripts/
+    ```
+    
+ 5. Make our Python scripts executable
+    ```
+    cd ~/catkin_ws/src/wanderbot/scripts
+    chmod +x *.py
+    ```
+    
+6. Compile/make our package
 
-
-*Now, provide detailed step-by-step instructions to install all necessary software for your project.*
-
-*The expectation is that the user should only have to follow these steps one time.  For example, if your project requires generating Gazebo mazes, the task of INSTALLING the maze generation code should go in this section.*
-
+    ```
+    cd ~/catkin_ws
+    catkin_make
+    ```
 ---
 
 ## Running the Code

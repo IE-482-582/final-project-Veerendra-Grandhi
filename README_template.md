@@ -94,7 +94,7 @@ We'll need two (2) terminal windows.
     cd ~/catkin_ws/src/multi_robot/scripts
     rosrun multi_robot puzzle_solver.py 3
     ```
-    *Enter any number in between 1 to 8 after `puzzle_solver.py`. This number is the turtlebot-index which tells our code to retrieve that particular robot. Refer to the figure "turtlebot_index" in images folder.
+    *Enter any number in between 1 to 8 after `puzzle_solver.py`. This number is the turtlebot-index which tells our code to retrieve that particular robot. Refer to the figure "turtlebot_index" in images folder.*
 ---
 
 ## Measures of Success

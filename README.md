@@ -130,9 +130,13 @@ We'll need two (2) terminal windows.
 
 ## What did you learn from this project?
 
-*For example, what concepts from class do you now have a solid understanding of?  What new techniques did you learn?*
+*What concepts from class do you now have a solid understanding of?  What new techniques did you learn?*
+- Importing multiple robots into a custom created gazebo world.
+- Using Odometry and Twist topic to move the robot for fixed length or fixed angle.
 
-*Also, what challenges did you face, and how did you overcome these?  Be specific.*
+*What challenges did you face, and how did you overcome these?  Be specific.*
+- The code is supposed to find empty space and move an "adjacent" turtlebot to make space for retrieving our target turtlebot. For this, we should publish to a robot by locating it in the co-ordinate frame. But publishing command is linked with a topic, ex: /robot5/cmd_vel_mux/teleop. We can't publish to any robot by just saying "Any robot at (x,y) to move".
+- So, I created a 2D matrix of 3 x 3 with numbers as that of robot indexes. While solving this matrix, all the moves that led to retrieval of target are recorded into a new matrix. This matrix is named command matrix, it is list of elements of form (robot index, direction of move). Ex: (4, left). The command matrix is "fed" to move method which implented all these steps on turtlebots.
 
 ---
 

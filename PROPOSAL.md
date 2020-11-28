@@ -25,20 +25,20 @@ The textbook chapters 3, 4, 5 & 7 are applied in the project. The code related t
 - [x] Complete this proposal document.  *Due Nov. 2*
 - [x] Import multiple turtlebots into Gazebo and place them inside a rectangular boundary. *Due Nov. 8*
 - [x] Create Gazebo .launch file to run the 15 puzzle. *Due Nov. 12*
-- [ ] Understand the 15 puzzle code & build the schematic for applying the code on turtlebots. *Due Nov. 18*
-- [ ] Create progress report.  *Due Nov. 20*
-- [ ] Apply the 15 puzzle logic to retrieve desired turtlebot from the rectangular boundary. *Due Nov. 26*
-- [ ] Make a Gazebo world and code considering variable number of turtlebots rather than 15. *Due Nov. 30*
+- [x] Understand the 15 puzzle code & build the schematic for applying the code on turtlebots. *Due Nov. 18*
+- [x] Create progress report.  *Due Nov. 20*
+- [x] Apply the 15 puzzle logic to retrieve desired turtlebot from the rectangular boundary. *Due Nov. 26*
+- [x] Make a Gazebo world and code considering variable number of turtlebots rather than 15. *Due Nov. 30*
 - [ ] Create final presentation.  *Due Dec. 4*
 - [ ] Update documentation based on presentation feedback. *Due Dec. 7*
 - [ ] Provide system documentation (README.md).  *Due Dec. 14*
 
 
 ## Measures of Success
-- [ ] View turtlebots inside a boundary in Gazebo.
-- [ ] Demonstrate that a single turtle bot can be pulled outside the boundary in step by step manner.
-- [ ] Apply the 15 puzzle and retrieve the turtlebot using most optimal number of steps.
-- [ ] Implement code on a model that can have variable(multiple) number of turtlebots.
-- [ ] Have a classmate follow the steps in the README to successfully run the simulation without any help.
+- [x] View turtlebots inside a boundary in Gazebo.
+- [x] Demonstrate that a single turtle bot can be pulled outside the boundary in step by step manner.
+- [x] Apply the 15 puzzle and retrieve the turtlebot using most optimal number of steps.
+- [x] Implement code on a model that can have variable(multiple) number of turtlebots.
+- [x] Have a classmate follow the steps in the README to successfully run the simulation without any help.
 
 

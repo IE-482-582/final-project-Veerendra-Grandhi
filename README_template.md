@@ -99,28 +99,32 @@ We'll need two (2) terminal windows.
 
 ## Measures of Success
 
-*You have already defined these measures of success (MoS) in your proposal, and updated them after your progress report.  The purpose of this section is to highlight how well you did.  Also, these MoS will be useful in assigning partial credit.*
-
-*The MoS summary should be in table form.  A sample is provided below:*
 <TABLE>
 <TR>
 	<TH>Measure of Success (from your PROPOSAL)</TH>
 	<TH>Status (completion percentage)</TH>
 </TR>
 <TR>
-	<TD>Install PR2 ROS Indigo Package</TD>
+	<TD>View turtlebots inside a boundary in Gazebo</TD>
 	<TD>100%</TD>
 </TR>
 <TR>
-	<TD>Write brain reader software to move the robot</TD>
-	<TD>25% (brain reader software detects brain waves, but does not translate to ROS commands.)</TD>
+	<TD>Demonstrate that a single turtle bot can be pulled outside the boundary in step by step manner</TD>
+	<TD>100%</TD>
+</TR>
+<TR>
+	<TD>Apply the 15 puzzle and retrieve the turtlebot using most optimal number of steps</TD>
+	<TD>100%</TD>
+</TR>
+<TR>
+	<TD>Implement code on a model that can have variable number of turtlebots</TD>
+	<TD>100%</TD>
+</TR>
+<TR>
+	<TD>Have a classmate follow the steps in the README to successfully run the simulation without any help</TD>
+	<TD>100%</TD>
 </TR>
 </TABLE>
-
-*NOTE 1:  I have your proposals...don't move the goal posts!*
-
-*NOTE 2:  For activities less than 100% complete, you should differentiate between what you completed and what you were unable to complete. I suggest you add details in a bullet list below.* 
-
 
 ---
 

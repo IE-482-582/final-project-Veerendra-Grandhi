@@ -37,21 +37,32 @@ NOTE: These instructions are a little different from the textbook's.
 1.  Create the Package:
     ```
     cd ~/catkin_ws/src
-    catkin_create_pkg wanderbot rospy geometry_msgs sensor_msgs
+    catkin_create_pkg multi_robot rospy gazebo_ros
     ```
-    *Note: We have added some dependency packages.  We'll take a look at `CMakeLists.txt` and `package.xml` shortly to see how that helped us.*
+   
     
 2. Let's go ahead and create our `scripts` directory:
     ```
-    cd ~/catkin_ws/src/wanderbot
+    cd ~/catkin_ws/src/multi_robot
     mkdir scripts
+    ```
+    	
+3. Let's go ahead and create our `launch` directory:
+    ```
+    cd ~/catkin_ws/src/multi_robot
+    mkdir launch
+    ```
+4. Let's go ahead and create our `world` directory:
+    ```
+    cd ~/catkin_ws/src/multi_robot
+    mkdir world
     ```
         
 3. Get the source code from the course github site:
     ```
     cd ~/Downloads
     rm -rf fall2020
-    git clone https://github.com/IE-482-582/fall2020.git
+    git clone https://github.com/IE-482-582/final-project-Veerendra-Grandhi.git
     ```
         
  4. Copy the Python scripts to our wanderbot workspace

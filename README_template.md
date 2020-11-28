@@ -79,12 +79,22 @@ NOTE: These instructions are a little different from the textbook's.
 
 ## Running the Code
 
-*Provide detailed step-by-step instructions to run your code.*
+We'll need two (2) terminal windows.
 
-*NOTE 1:  At this point, the user should have already installed the necessary code.  This section should simply describe the steps for RUNNING your project.*  
+1. Use a *launch* file to start roscore and Gazebo.
 
-*NOTE 2:  If you're generating mazes, for example, the task of GENERATING a new maze would go here.*
+    ```
+    cd ~/catkin_ws/src/multi_robot/launch
+    roslaunch multi_robot main.launch
+    ```
 
+2. Run the red light / green light script:
+
+    ```
+    cd ~/catkin_ws/src/multi_robot/scripts
+    rosrun multi_robot puzzle_solver.py 3
+    ```
+    *Enter any number in between 1 to 8 after `puzzle_solver.py`. This number is the turtlebot-index which tells our code to retrieve that particular robot. Refer to the figure "turtlebot_index" in images folder.
 ---
 
 ## Measures of Success

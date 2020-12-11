@@ -26,7 +26,7 @@ First part is "Solver", which takes input argument from terminal while running p
 Odometry topic initializes the start position of each turtlebot at (0,0,0) as the origin and sets the orientation in z to 0. We have the initial turtlebot locations from "robots.launch" file. By adding these co-ordinates to Odemetry pose for each corresponding turtlebot, we can get all the turtle bots into the same co-ordinate frame. Turtlebot moves are going to be one step at a time and restricted to four directions (front, back, right, left). The move method has 4 directional functions that are used for moving in each direction and these functions take robot index as input. The array developed in the solve method above is used as input for the move method.
 
 ### Contributions
-*Although research has been done on optimizing storage systems, implementing a puzzle based solver by applying robotic technology can save time and human effort simultaneously in large warehouses. The code is completely parametric and can be applied for any number of robots. The path determined through this code is the most optimal path for retireval.*
+*Although research has been done on optimizing storage systems, implementing a puzzle based solver by applying robotic technology can save time and human effort simultaneously in large warehouses. The code is completely parametric and can be applied for any number of robots. The path determined through this code is the optimal path for retrieval.*
 
 ---
 

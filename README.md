@@ -16,8 +16,12 @@ This project introduces and develops model for a physical goods storage system b
 ### Building Gazebo World
 A four wall boundary is created in gazebo empty world. Inside multi_robot package, launch folder is created which has 3 launch files. The first one is "one_robot.launch", it has the description of turtlebot model and all the sensor connected to it. This file determines the topics to which our turtlebot subscribe's and publish's. The second one is "robots.launch", it calls "one_robot.launch" to launch the turtle bot. It creates 8 namespaces through which we can launch 8 turtlebots and place them in 8 different locations in the gazebo world. The third file "main.launch" calls "robots.launch" onto the four wall boundary world that has been created. Thereby placing 8 turtlebots inside a 3 x 3 grid boundary. The figure "multi_robot_grid_view" in images folder depicts the gazebo world for the project.
 
+![logo](/images/multi_robot_grid_view.JPG)
+
 ### Python Code
 Robots are indexed from 1 to 8 and we subscribe to /odom topic (Odometry) and publish to /cmd_vel_mux/input/teleop topic (Twist) of each turtlebot. Code is divided into 2 parts. First part deals with solving the puzzle and second part moves the turtlebots to reach the goal. The figure "turtlebot_index" in images folder can be used to choose the desired turtlebot to pull to the I/O point.
+
+![logo2](/images/turtlebot_index.JPG)
 
 #### Solve
 First part is "Solver", which takes input argument from terminal while running python file. Input arugment is a number in between 1 to 8 that tells us which turtlebot needs to be brought to I/O point. While making the required moves to pull the desired turtlebots, an array is generated that contains [turtlebot index, move direction]. When the puzzle is solved, we have this array that lists exact order and direction in which the turtlebots should move to achieve our goal.
@@ -143,7 +147,7 @@ We'll need two (2) terminal windows.
 ## Future Work
 
 *If a student from next year's class wants to build upon your project, what would you suggest they do?  What suggestions do you have to help get them started (e.g., are there particular Websites they should check out?).*
-- A dual-load retrieval system which can pull out 2 loads together in the most optimal way can be implemented. Refer to "dual_lod_retrieval" in images folder. Also, check out http://dspace.calstate.edu/bitstream/handle/10211.3/212826/Zaerpour201755.pdf?sequence=1.
+- A dual-load retrieval system which can pull out 2 loads together in the most optimal way can be implemented. Refer to "dual_load_retrieval" in images folder. Also, check out http://dspace.calstate.edu/bitstream/handle/10211.3/212826/Zaerpour201755.pdf?sequence=1.
 - A storage system with two or more empty spaces can also be implemented.
 
 ---

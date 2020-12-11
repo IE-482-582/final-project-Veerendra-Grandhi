@@ -147,8 +147,9 @@ We'll need two (2) terminal windows.
 ## Future Work
 
 *If a student from next year's class wants to build upon your project, what would you suggest they do?  What suggestions do you have to help get them started (e.g., are there particular Websites they should check out?).*
+- A storage system with two or more empty spaces can be implemented.
 - A dual-load retrieval system which can pull out 2 loads together in the most optimal way can be implemented. Refer to "dual_load_retrieval" in images folder. Also, check out http://dspace.calstate.edu/bitstream/handle/10211.3/212826/Zaerpour201755.pdf?sequence=1.
-- A storage system with two or more empty spaces can also be implemented.
+![logo3](/images/dual_load_retrieval.JPG)
 
 ---
 

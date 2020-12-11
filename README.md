@@ -155,8 +155,9 @@ We'll need two (2) terminal windows.
 
 ## References/Resources
 
+
+- Kevin R. Gue, Byung Soo Kim, Puzzle‐based storage systems, Wiley InterScience (www.interscience.wiley.com), (2007), 556-567 https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.20230: For solving the game of 15 puzzle.
 - https://www.theconstructsim.com/ros-qa-130-how-to-launch-multiple-robots-in-gazebo-simulator/: For launching multiple turtlebots.
 - https://github.com/optimatorlab/turtlebotrace: For having all the required topics on turtlebot launch file.
-- https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.20230: For solving the game of 15 puzzle.
 - https://answers.ros.org/questions/: For queries regarding Odometry and Twist.
 - https://stackoverflow.com/: For general python queries.
